@@ -13,3 +13,8 @@ window.addEventListener('click', function(event) {
         document.getElementById('contact-popup').style.display = 'none';
     }
 });
+
+// Script para alternar o menu de navegação em dispositivos móveis
+document.querySelector('.menu-icon').addEventListener('click', function() {
+    document.querySelector('.nav-links').classList.toggle('show');
+});
