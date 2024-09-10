@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Empresa de terceirização de serviços - RD Facilities">
+    <title>RD Facilities</title>
+    <link rel="shortcut icon" type="imagex/png" href="imgs/Logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#home"><img src="imgs/Logo.png" alt="Logo RD Facilities"></a>
+                <a class="Logos" href="#home"><span>RD Facilities</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact-button" id="contact-button">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home-section">
+        <div class="home-container">
+            <div class="home-text">
+                <h1>Bem-vindo à RD Facilities</h1>
+                <p>Soluções completas em terceirização de serviços para sua empresa.</p>
+            </div>
+            <div class="home-image">
+                <img src="imgs/Imagem4.jpeg" alt="Imagem da RD Facilities">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="services" class="services-section">
+        <h2>Nossos Serviços</h2>
+        <div class="services-list">
+            <div class="service-item">
+                <img src="imgs/Imagem1.jpeg" alt="Serviço de Limpeza">
+                <h3>Serviço de Limpeza</h3>
+                <p>Ser a referência em soluções integradas de facilities, reconhecida pela inovação, eficiência e compromisso com a excelência no atendimento ao cliente.</p>
+            </div>
+            <div class="service-item">
+                <img src="imgs/Imagem2Quad.jpeg" alt="Serviço de Portaria">
+                <h3>Serviço de Portaria</h3>
+                <p>Ser a referência em soluções integradas de facilities, reconhecida pela inovação, eficiência e compromisso com a excelência no atendimento ao cliente.</p>
+            </div>
+            <div class="service-item">
+                <img src="imgs/Imagem3Quad.jpeg" alt="Serviço de Segurança">
+                <h3>Serviço de Segurança</h3>
+                <p>Ser a referência em soluções integradas de facilities, reconhecida pela inovação, eficiência e compromisso com a excelência no atendimento ao cliente.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="about-section">
+        <h2>Sobre Nós</h2>
+        <div class="about-content">
+            <div class="vision">
+                <h3>Visão</h3>
+                <p>Ser a referência em soluções integradas de facilities, reconhecida pela inovação, eficiência e compromisso com a excelência no atendimento ao cliente.</p>
+            </div>
+            <div class="mission">
+                <h3>Missão</h3>
+                <p>Fornecer soluções integradas e eficientes de facilities que otimizam o ambiente de trabalho e promovem a excelência operacional, garantindo a satisfação e o sucesso dos nossos clientes.</p>
+            </div>
+            <div class="values">
+                <h3>Valores</h3>
+                <p>Compromisso com a Qualidade: Buscamos a excelência em todos os aspectos dos nossos serviços, garantindo que cada detalhe atenda aos mais altos padrões de qualidade. Inovação Contínua: Estamos sempre à procura de novas tecnologias e métodos para melhorar nossos serviços e oferecer soluções mais eficazes e sustentáveis.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 RD Facilities - Todos os direitos reservados</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/rdfacilities" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/rdfacilities" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/rdfacilities" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/rdfacilities" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- Pop-up de Contato -->
+    <div id="contact-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <h2>Entre em Contato</h2>
+            <form id="contact-form" action="https://formsubmit.co/gabrielhenriquerc11@gmail.com" method="POST">
+                <label for="name">Digite seu nome:</label>
+                <input type="text" id="name" name="Nome" required>
+                <label for="email">Digite seu E-mail:</label>
+                <input type="email" id="email" name="Email" required>
+                <label for="service">Selecione o serviço desejado:</label>
+                <select type="text" name="Serviço" id="service">
+                    <option value="nulo"></option>
+                    <option value="Serviço de Limpeza">Serviço de Limpeza</option>
+                    <option value="Serviço de Portaria">Serviço de Portaria</option>
+                    <option value="Serviço de Segurança">Serviço de Segurança</option>
+                </select>
+                <label for="Mensagem">Digite sua mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
