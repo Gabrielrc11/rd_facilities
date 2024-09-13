@@ -339,6 +339,14 @@ footer p {
     cursor: pointer;
 }
 
+.close-button-work {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 /* Responsivo */
 @media (max-width: 768px) {
     .nav-links {

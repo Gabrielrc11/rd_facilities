@@ -21,6 +21,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Serviços</a></li>
                 <li><a href="#about">Sobre</a></li>
+                <li><a href="#work-button" id="work-button">Trabalhe conosco</a></li>
                 <li><a href="#contact-button" id="contact-button">Contato</a></li>
             </ul>
             <div class="menu-icon">
@@ -111,6 +112,32 @@
                 </select>
                 <label for="Mensagem">Digite sua mensagem:</label>
                 <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Pop-up de Trabalhe conosco -->
+    <div id="work-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-button-work">&times;</span>
+            <h2>Faça parte da nossa equipe</h2>
+            <form id="contact-form" action="https://formsubmit.co/gabrielhenriquerc11@gmail.com" method="POST">
+                <label for="name">Digite seu nome completo:</label>
+                <input type="text" id="name" name="Nome" required>
+                <label for="email">Digite seu E-mail:</label>
+                <input type="email" id="email" name="Email" required>
+                <label for="name">Digite seu telefone:</label>
+                <input type="text" id="name" name="Telefone" required>
+                <label for="service">Selecione a vaga desejada:</label>
+                <select type="text" name="Vaga" id="service">
+                    <option value="nulo"></option>
+                    <option value="Jardineiro">Jardineiro</option>
+                    <option value="Porteiro">Porteiro</option>
+                    <option value="Auxiliar de limpeza">Auxiliar de limpeza</option>
+                </select>
+                <label for="Mensagem">Link para o currículo:</label>
+                <textarea id="message" name="Currículo" required></textarea>
                 <button type="submit">Enviar</button>
             </form>
         </div>
