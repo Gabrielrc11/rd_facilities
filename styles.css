@@ -186,8 +186,6 @@ nav {
     }
 }
 
-
-
 /* Sessão Serviços */
 .services-section {
     padding: 80px 20px;
@@ -198,24 +196,53 @@ nav {
 
 .services-list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha */
+    justify-content: space-between; /* Espaça os itens */
+    gap: 20px;
 }
 
 .service-item {
+    flex: 1 1 calc(25% - 20px); /* 25% de largura menos o gap */
     text-align: center;
-    flex-basis: 30%;
-    margin: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
 }
 
 .service-item img {
     width: 100%;
-    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
     height: auto;
-    border-radius: 8px; /* Bordas arredondadas para um visual mais elegante */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    border-radius: 8px;
 }
+
+.service-item h3 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #000;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Responsivo: Ajuste para 2 colunas em telas médias */
+@media (max-width: 1024px) {
+    .service-item {
+        flex: 1 1 calc(50% - 20px); /* 2 colunas em telas médias */
+    }
+}
+
+/* Responsivo: Ajuste para 1 coluna em telas pequenas */
+@media (max-width: 768px) {
+    .service-item {
+        flex: 1 1 100%; /* 1 coluna em telas pequenas */
+    }
+}
+
 
 /* Sessão Sobre */
 .about-section {
