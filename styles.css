@@ -46,11 +46,12 @@ nav {
 .logo img {
     width: 50px;
     height: auto;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .Logos {
     text-decoration: none;
+    margin-top: 10px;
 }
 
 .logo span {
@@ -297,8 +298,12 @@ footer p {
     transition: color 0.3s ease;
 }
 
-.social-media a:hover {
-    color: #ffcc00; /* Efeito de hover para links das redes sociais */
+.social-media #ig:hover{
+    color: #833ab4; /* Efeito de hover para links das redes sociais */
+}
+
+.social-media #lk:hover{
+    color: #0e76a8; /* Efeito de hover para links das redes sociais */
 }
 
 /* Pop-up de Contato */
