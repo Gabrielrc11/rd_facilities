@@ -185,6 +185,10 @@ nav {
         margin-bottom: 20px;
         padding: 20px;
     }
+
+    .home-section {
+        background-position: right center; /* Mover a imagem de fundo mais para a esquerda em dispositivos móveis */
+    }
 }
 
 /* Sessão Serviços */
