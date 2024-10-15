@@ -16,7 +16,6 @@
 
 ## 📌 Índice
 <p align="center">         
-  <a href="#descrição"> Descrição </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;  
   <a href="#tecnologias">Tecnologias </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;        
   <a href="#instalação"> Instalação e Uso </a> &nbsp; &nbsp; &nbsp;
 </p>          
