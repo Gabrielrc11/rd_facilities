@@ -1,12 +1,45 @@
-# RD Facilities
+<h1 align="center">
+    <a href="https://laravelcollective.com/tools/banner">
+        <img alt="Banner" title="#Banner" style="object-fit: cover;" src="./imgs/Application.png"  />
+    </a>
+</h1>
 
-## Sobre o projeto
-Meu primeiro projeto freelancer, onde fui contratado para a criação de uma landing page. O site foi desenvolvido para a empresa RD Facilities. Visualize o projeto aqui: 
+# 📝 RD Facilities
 
-https://rd-facilities.vercel.app/
+<p align="center"> Landing Page desenvolvida como freelancer para cliente no ramo de terceirização. </p>
 
+<h2 align="center">
+  <img src="https://img.shields.io/badge/web%3F-ok-blue?style=for-the-badge" alt="Sistema web Ok" />
+  <img src="https://img.shields.io/badge/server%3F-ok-blue?style=for-the-badge" alt="Server Ok" />
+  <img src="https://img.shields.io/badge/Mobile-OK-blue?style=for-the-badge" alt="Aplicativo mobile Ok" />
+</h2>
 
-<img src="./imgs/Application.png" alt="Application" width="400"/>
+## 📌 Índice
+<p align="center">         
+  <a href="#descrição"> Descrição </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;  
+  <a href="#tecnologias">Tecnologias </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;        
+  <a href="#instalação"> Instalação e Uso </a> &nbsp; &nbsp; &nbsp;
+</p>          
 
-### Tecnologias utilizadas
-Por se tratar de uma simples landing page foi utilizado como tecnologias apenas HTML, CSS e JavaScript. Para desenvolver o formulário de envio foi utilizado o https://formsubmit.co/.
+## Tecnologias                                
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+## ⚙ Instalação   
+
+### Clonagem
+
+Primeiro, clone o repositório para seu ambiente:
+
+```bash
+> git clone https://github.com/Gabrielrc11/rd_facilities.git
+```
+
+Depois, entre no repositório clonado e no diretório correspondente ao que quer testar (web, server).
+Logo após, execute o `index.html` para rodar a aplicação
+
+-------------          
+
+- [Voltar ao Início](#index)
